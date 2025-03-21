@@ -1,3 +1,4 @@
 # HTMLlearning
 This is a website about HTML learning
-<a herify="/HTMLlearning/Main.xaml">点击跳转</a>
+Please copy the link below and enter.
+[https](https://kinkai2004.github.io/HTMLlearning/Main.html)
