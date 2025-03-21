@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+</head>
+<body>
+    <h1>
+        <p>新加标签</p>
+    </h1>
+    <div>
+        <p>
+            使用div实现页面中不同区域的划分，使得页面程序增加清晰度；<br>
+            div之间可以嵌套
+        </p>
+    </div>
+    <header></header><p>头部</p>
+    <nav></nav><p>导航</p>
+    <section></section><p>文章中的节</p>
+    <aside></aside><p>侧边栏</p>
+    <footer></footer><p>脚部</p>
+    <article></article><p>代表一个独立的，完整的相关内容快，例如一篇完整的论坛帖子，一篇文章，一个用户评论等</p>
+    <hr>
+    <h2>
+        <p>html（旧）</p>
+    </h2>
+    <table border="4">
+        <tr>
+            <td>&ltdiv id="header"&gt&lt/div&gt</td>
+            <td>头部</td>
+        </tr>
+        <tr>
+            <td>&ltdiv id="article"&gt&lt/div&gt</td>
+            <td>主体</td>
+        </tr>
+        <tr>
+            <td>&ltdiv id="nav"&gt&lt/div&gt</td>
+            <td>导航</td>
+        </tr>
+        <tr>
+            <td>&ltdiv id="aside"&gt&lt/div&gt</td>
+            <td>侧边栏</td>
+        </tr>
+        <tr>
+            <td>&ltdiv id="footer"&gt&lt/div&gt</td>
+            <td>脚部</td>
+        </tr>
+        <tr>
+            <td>&ltdiv id="section"&gt&lt/div&gt</td>
+            <td>文章中一节</td>
+        </tr>
+    </table>
+    <h2>
+        <p>html（新）</p>
+    </h2>
+    <table border="4">
+        <tr>
+            <td>&ltheader&gt&lt/header&gt</td>
+            <td>头部</td>
+        </tr>
+        <tr>
+            <td>&ltnav&gt&lt/nav&gt</td>
+            <td></td>导航
+        </tr>
+        <tr>
+            <td>&ltarticle&gt&lt/article&gt</td>
+            <td>主体</td>
+        </tr>
+        <tr>
+            <td>&ltaside&gt&lt/aside&gt</td>
+            <td>侧边栏</td>
+        </tr>
+        <tr>
+            <td>&ltfooter&gt&lt/footer&gt</td>
+            <td>脚部</td>
+        </tr>
+        <tr>
+            <td>&ltsection&gt&lt/section&gt</td>
+            <td>文章中的一节</td>
+        </tr>
+    </table>
+    <hr>
+    <p>html源码：</p>
+    <pre>
+        <code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;News&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;
+        &lt;p&gt;新加标签&lt;/p&gt;
+    &lt;/h1&gt;
+    &lt;div&gt;
+        &lt;p&gt;
+            使用div实现页面中不同区域的划分，使得页面程序增加清晰度；&lt;br&gt;
+            div之间可以嵌套
+        &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;header&gt;&lt;/header&gt;&lt;p&gt;头部&lt;/p&gt;
+    &lt;nav&gt;&lt;/nav&gt;&lt;p&gt;导航&lt;/p&gt;
+    &lt;section&gt;&lt;/section&gt;&lt;p&gt;文章中的节&lt;/p&gt;
+    &lt;aside&gt;&lt;/aside&gt;&lt;p&gt;侧边栏&lt;/p&gt;
+    &lt;footer&gt;&lt;/footer&gt;&lt;p&gt;脚部&lt;/p&gt;
+    &lt;article&gt;&lt;/article&gt;&lt;p&gt;代表一个独立的，完整的相关内容快，例如一篇完整的论坛帖子，一篇文章，一个用户评论等&lt;/p&gt;
+    &lt;hr&gt;
+    &lt;h2&gt;
+        &lt;p&gt;html（旧）&lt;/p&gt;
+    &lt;/h2&gt;
+    &lt;table border="4"&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&ltdiv id="header"&gt&lt/div&gt&lt;/td&gt;
+            &lt;td&gt;头部&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&ltdiv id="article"&gt&lt/div&gt&lt;/td&gt;
+            &lt;td&gt;主体&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&ltdiv id="nav"&gt&lt/div&gt&lt;/td&gt;
+            &lt;td&gt;导航&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&ltdiv id="aside"&gt&lt/div&gt&lt;/td&gt;
+            &lt;td&gt;侧边栏&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&ltdiv id="footer"&gt&lt/div&gt&lt;/td&gt;
+            &lt;td&gt;脚部&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&ltdiv id="section"&gt&lt/div&gt&lt;/td&gt;
+            &lt;td&gt;文章中一节&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;h2&gt;
+        &lt;p&gt;html（新）&lt;/p&gt;
+    &lt;/h2&gt;
+    &lt;table border="4"&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&ltheader&gt&lt/header&gt&lt;/td&gt;
+            &lt;td&gt;头部&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&ltnav&gt&lt/nav&gt&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;导航
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&ltarticle&gt&lt/article&gt&lt;/td&gt;
+            &lt;td&gt;主体&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&ltaside&gt&lt/aside&gt&lt;/td&gt;
+            &lt;td&gt;侧边栏&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&ltfooter&gt&lt/footer&gt&lt;/td&gt;
+            &lt;td&gt;脚部&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&ltsection&gt&lt/section&gt&lt;/td&gt;
+            &lt;td&gt;文章中的一节&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </code>
+    </pre>
+</body>
+</html>

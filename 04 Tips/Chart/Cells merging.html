@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cells merging</title>
+</head>
+<body>
+    <h1>
+        <p>单元格合并</p>
+    </h1>
+    <table border="5" align="center" width="400">
+        <tr>
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+        <tr>
+            <td colspan="2">单元格</td>
+            
+            <td rowspan="2">单元格</td>
+        </tr>
+        <tr>
+            <td>单元格</td>
+            <td>单元格</td>         
+        </tr>
+    </table>
+    <hr>
+    <p>
+        使用colspan进行行合并，使用rowspan进行列合并
+    </p>
+    <hr>
+    <table border="4">
+        <tr>
+            <td>colspan</td>
+            <td>行合并</td>
+        </tr>
+        <tr>
+            <td>rowspan</td>
+            <td>列合并</td>
+        </tr>
+    </table>
+    <hr>
+    <span>html源码：</span>
+    <pre>
+        <code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Cells merging&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;table border="5" align="center" width="400"&gt;
+        &lt;tr&gt;
+            &lt;td&gt;单元格&lt;/td&gt;
+            &lt;td&gt;单元格&lt;/td&gt;
+            &lt;td&gt;单元格&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan="2"&gt;单元格&lt;/td&gt;
+            
+            &lt;td rowspan="2"&gt;单元格&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;单元格&lt;/td&gt;
+            &lt;td&gt;单元格&lt;/td&gt;         
+        &lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;hr&gt;
+    &lt;p&gt;
+        使用colspan进行行合并，使用rowspan进行列合并
+    &lt;/p&gt;
+    &lt;hr&gt;
+    &lt;table border="4" align="center"&gt;
+        &lt;tr&gt;
+            &lt;td&gt;colspan&lt;/td&gt;
+            &lt;td&gt;行合并&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;rowspan&lt;/td&gt;
+            &lt;td&gt;列合并&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </code>
+    </pre>
+</body>
+</html>
